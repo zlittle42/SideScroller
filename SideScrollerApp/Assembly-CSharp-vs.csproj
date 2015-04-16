@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{DE34B1E0-7C75-57A7-22A6-4658DE89DF9F}</ProjectGuid>
+	<ProjectGuid>{F9C063FC-F4E4-0382-E133-9840A578A824}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,8 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\CameraMove.cs" />
      <Compile Include="Assets\Scripts\Character\unitController.cs" />
+     <Compile Include="Assets\Scripts\base script\enemySpawner.cs" />
+     <Compile Include="Assets\Scripts\base script\mySpawner.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/145003108/Desktop/treeColliders/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/145003108/Desktop/Github/SideScroller/SideScrollerApp/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
@@ -57,7 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{05727ACB-47E5-AAFD-5065-24609D16A91B}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{9D91AE76-96DB-966A-5679-41A4C4CF223A}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

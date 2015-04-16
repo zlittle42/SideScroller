@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class unitController : MonoBehaviour {
-	public float moveSpeed;
+	public float moveSpeed = 1f;
 	public string unitTag;
 	public Rigidbody rb;
 	public Vector3 move;
@@ -15,11 +15,11 @@ public class unitController : MonoBehaviour {
 		Debug.Log(unitTag);
 		if(unitTag == "myUnit")
 		{
-			moveSpeed = 2f;
+			//moveSpeed = 2f;
 		}
 		else if (unitTag == "enemyUnit")
 		{
-			moveSpeed = -2f;
+			moveSpeed = -moveSpeed;
 		}
 	}
 	
