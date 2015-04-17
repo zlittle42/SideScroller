@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\base script\mySpawner.cs">
     <Files>
-      <File FileName="Assets\Scripts\base script\mySpawner.cs" Line="15" Column="24" />
+      <File FileName="Assets\Scripts\base script\mySpawner.cs" Line="18" Column="41" />
+      <File FileName="Assets\Scripts\base script\enemySpawner.cs" Line="19" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

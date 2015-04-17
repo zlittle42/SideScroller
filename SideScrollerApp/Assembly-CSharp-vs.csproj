@@ -50,6 +50,8 @@
      <Compile Include="Assets\Scripts\Character\unitController.cs" />
      <Compile Include="Assets\Scripts\base script\enemySpawner.cs" />
      <Compile Include="Assets\Scripts\base script\mySpawner.cs" />
+     <None Include="Assets\Character Prefabs\Earthborn Troll\Shader\Alpha_Texture.shader" />
+     <None Include="Assets\Character Prefabs\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/145003108/Desktop/Github/SideScroller/SideScrollerApp/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
