@@ -28,6 +28,8 @@ public class unitController : MonoBehaviour {
 		move = new Vector3(moveSpeed,0,0);
 	}
 	void FixedUpdate () {
+		transform.rotation = Quaternion.Euler (transform.rotation.eulerAngles.x,0,0);
+		transform.position = new Vector3 (transform.position.x, 2.3f, 0);
 		rb.MovePosition (transform.position + move * Time.deltaTime);
 	}
 }
